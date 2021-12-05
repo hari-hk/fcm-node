@@ -9,15 +9,13 @@ const fcm = new FCM(SERVER_API_KEY);
 const payload = {
   to: DEVICE_TOKEN,
   data: {
-    url: 'news',
-    foo: 'fooooooooooooo',
-    bar: 'bar bar bar',
+    url: 'navigation url',
     main_picture: 'https://picsum.photos/300/200',
   },
   priority: 'high',
   content_available: true,
   notification: {
-    title: 'Npai Testing Title',
+    title: 'Sample Title',
     body: 'Testing body!',
     image: 'https://picsum.photos/300/200',
     sound: 'default',
@@ -29,7 +27,7 @@ const payload = {
 const payload2 = {
   data: {
     image: 'https://picsum.photos/300/200',
-    message: 'Firebase Push Message Using API',
+    message: 'DEMO:: FCM Using Node JS API',
     AnotherActivity: 'True',
   },
   to: DEVICE_TOKEN,
