@@ -1,0 +1,26 @@
+{
+  "name": "fcm-node",
+  "version": "1.0.0",
+  "description": "fcm testing tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hari-hk/restaurants.git"
+  },
+  "keywords": [
+    "fcm",
+    "node-fcm"
+  ],
+  "author": "Hari hara kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hari-hk/restaurants/issues"
+  },
+  "homepage": "https://github.com/hari-hk/restaurants#readme",
+  "dependencies": {
+    "fcm-node": "^1.6.1"
+  }
+}
